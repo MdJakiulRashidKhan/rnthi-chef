@@ -48,15 +48,19 @@ const LatestPost = () => {
               ut, lobortis ac diam.
             </p>
 
-            <div className="flex items-center justify-between gap-4  border-b-2 border-t-2 border-orange-400">
-              <div className="flex items-center gap-4">
+            <div className="flex flex-col md:flex-row items-center justify-between space-y-5 md:space-y-0 border-t-2 border-b-2 border-orange-200 py-4">
+              <div className="flex items-center space-x-4">
                 <div>
-                  <img src="/images/userimg.png" alt="" />
+                  <img
+                    className="w-16 h-16 rounded"
+                    src="/images/userimg.png"
+                    alt="User"
+                  />
                 </div>
                 <div>
                   <h6 className="text-xl text-red-400">Md. Tarif Al-Mozahed</h6>
                   <div>
-                    <p>
+                    <p className="text-sm text-gray-600">
                       Suspendisse potenti. Nam sem tortor,
                       <br /> dapibus et hendrerit eu, <br /> ornare vitae arcu.
                       Nunc porta libero.
@@ -64,17 +68,17 @@ const LatestPost = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-4 ">
-                <div className="btn bg-orange-200 shadow-md text-white">
+              <div className="flex space-x-4">
+                <div className="btn bg-orange-200 p-3 rounded-full shadow-md text-white hover:bg-orange-300">
                   <FaFacebook className="text-2xl" />
                 </div>
-                <div className="btn bg-orange-200 shadow-md text-white">
+                <div className="btn bg-orange-200 p-3 rounded-full shadow-md text-white hover:bg-orange-300">
                   <IoLogoWhatsapp className="text-2xl" />
                 </div>
-                <div className="btn bg-orange-200 shadow-md text-white">
+                <div className="btn bg-orange-200 p-3 rounded-full shadow-md text-white hover:bg-orange-300">
                   <CiYoutube className="text-2xl" />
                 </div>
-                <div className="btn bg-orange-200 shadow-md text-white">
+                <div className="btn bg-orange-200 p-3 rounded-full shadow-md text-white hover:bg-orange-300">
                   <FaInstagram className="text-2xl" />
                 </div>
               </div>
@@ -82,7 +86,7 @@ const LatestPost = () => {
           </div>
         </div>
 
-        <div className="lg:col-span-1 border border-orange-400 p-12">
+        <div className="lg:col-span-1 border border-orange-300 p-12">
           <h4 className="text-3xl">Latest Post</h4>
           <div className="space-y-6 pt-12">
             <div className="flex flex-col  gap-2">

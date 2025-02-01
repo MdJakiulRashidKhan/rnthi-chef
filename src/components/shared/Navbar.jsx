@@ -79,11 +79,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-red-800 px-8 py-2 text-white">
+          <a className="btn bg-red-800 px-4 py-2 text-white">
             <div className="bg-orange-400 p-2">
               <FaPhoneAlt />
             </div>
-            Button
+            APPLY NOW
           </a>
         </div>
       </div>

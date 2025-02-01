@@ -3,7 +3,7 @@ import React from "react";
 
 const ReadyCard = () => {
   return (
-    <div className="container mx-auto mt-16">
+    <div className="container mx-auto mt-16 px-4 sm:px-8 md:px-16">
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
@@ -29,7 +29,7 @@ const ReadyCard = () => {
               Get Started
             </motion.p>
             <motion.h1
-              className="text-rose-950 text-7xl font-semibold leading-tight"
+              className="text-rose-950 text-5xl md:text-7xl font-semibold leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.8 }}
