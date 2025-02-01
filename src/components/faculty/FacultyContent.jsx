@@ -20,12 +20,12 @@ const FacultyContent = () => {
   });
 
   return (
-    <div className="container mx-auto p-5">
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 px-4 sm:px-8 lg:px-20">
+    <div className="container mx-auto my-10 flex justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 px-4 justify-center">
         {FacultyData.map((faculty, index) => (
           <div
             key={index}
-            className={`p-6 rounded-lg ${
+            className={`p-6 py-6 rounded-lg max-w-[591px] h-[1020px] space-y-8 mx-auto ${
               index === 1 || index === 3
                 ? "bg-black text-white shadow-[4px_4px_0px_#FFA500]"
                 : "bg-orange-100 shadow-[4px_4px_0px_#FF0000]"
