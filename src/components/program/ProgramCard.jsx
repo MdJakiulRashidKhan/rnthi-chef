@@ -46,7 +46,6 @@ const ProgramCard = () => {
     },
   ];
 
-  // Generate 6 cards by repeating the first two designs
   const sixCards = Array.from({ length: 6 }, (_, index) => ({
     ...cardsData[index % 2],
     id: index + 1,
@@ -69,12 +68,12 @@ const ProgramCard = () => {
                 card.isDark
                   ? "bg-black shadow-[4px_4px_0px_#FFA500]"
                   : "bg-orange-200 shadow-[4px_4px_0px_#FF0000]"
-              } w-full max-w-xs sm:max-w-md lg:max-w-lg mx-auto`} // Ensures cards scale properly on different screens
+              } w-full max-w-xs sm:max-w-md lg:max-w-lg mx-auto`}
             >
               <img
                 src={card.image}
                 alt={`${card.title} Image`}
-                className="w-full h-auto mb-4 mx-auto object-cover" // Image covers the card, adjust size for smaller screens
+                className="w-full h-auto mb-4 mx-auto object-cover"
               />
               <h3
                 className={`text-2xl font-bold mb-2 ${
@@ -101,14 +100,11 @@ const ProgramCard = () => {
                   card.isDark ? "border-orange-500" : "border-orange-800"
                 }`}
               />
-              <div className="flex flex-wrap justify-center gap-4">
-                {card.details.map((detail, idx) => (
-                  <div
-                    key={idx}
-                    className={`flex items-center space-x-2 mb-4 ${
-                      idx < 2 ? "w-1/2" : "w-1/3"
-                    } ${idx === 0 && !card.isDark ? "pl-16" : ""}`}
-                  >
+
+              {/* Updated Responsive Details Layout */}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-center">
+                {card.details.slice(0, 2).map((detail, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
                     <span className="inline-block w-4 h-4 rounded-full bg-yellow-400"></span>
                     <p
                       className={`${
@@ -120,6 +116,33 @@ const ProgramCard = () => {
                   </div>
                 ))}
               </div>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-center mt-2">
+                {card.details.slice(2, 4).map((detail, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
+                    <span className="inline-block w-4 h-4 rounded-full bg-yellow-400"></span>
+                    <p
+                      className={`${
+                        card.isDark ? "text-white" : "text-gray-600"
+                      }`}
+                    >
+                      {detail}
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <div className="flex lg:justify-center mt-2">
+                <div className="flex items-center space-x-2">
+                  <span className="inline-block w-4 h-4 rounded-full bg-yellow-400"></span>
+                  <p
+                    className={`${
+                      card.isDark ? "text-white" : "text-gray-600"
+                    }`}
+                  >
+                    {card.details[4]}
+                  </p>
+                </div>
+              </div>
+
               <hr
                 className={`my-4 ${
                   card.isDark ? "border-orange-500" : "border-orange-800"
@@ -134,7 +157,7 @@ const ProgramCard = () => {
                   />
                   <div>
                     <h6
-                      className={`text-lg  font-semibold ${
+                      className={`text-lg font-semibold ${
                         card.isDark ? "text-white" : "text-gray-800"
                       }`}
                     >
