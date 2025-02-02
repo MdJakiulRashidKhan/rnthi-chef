@@ -1,4 +1,6 @@
 import React from "react";
+
+import ProgramBanner from "../components/program/ProgramBanner";
 import ProgramCard from "../components/program/ProgramCard";
 import Navbar from "../components/shared/Navbar";
 import ReadyCard from "../components/shared/ReadyCard";
@@ -8,7 +10,9 @@ const About = () => {
   return (
     <div>
       <Navbar />
+      <ProgramBanner />
       <ProgramCard />
+
       <ReadyCard />
       <Footer />
     </div>
