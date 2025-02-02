@@ -4,7 +4,7 @@ const Testimonial = () => {
   return (
     <div className="container mx-auto py-12 px-6 sm:px-12 md:px-24 lg:px-36">
       <div className="flex flex-col space-y-4">
-        <p className="text-orange-500 text-center">Get Inspired</p>
+        <p className="text-orange-500 text-center lg:text-left">Get Inspired</p>
         <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-between">
           <div className="flex items-center">
             <h1 className="bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent text-4xl sm:text-5xl font-bold text-center md:text-left">
