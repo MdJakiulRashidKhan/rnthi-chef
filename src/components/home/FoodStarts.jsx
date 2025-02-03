@@ -23,7 +23,7 @@ const FoodStarts = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center gap-12 justify-between lg:w-[1200px] mx-auto">
+      <div className="flex flex-col md:flex-row items-center gap-12 justify-between lg:w-[1024px] mx-auto">
         <div>
           <img src="/images/start1.png" className="rounded-xl" alt="" />
         </div>
