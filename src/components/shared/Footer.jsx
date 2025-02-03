@@ -8,7 +8,7 @@ import { IoLogoWhatsapp } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className=" mt-8 md:mt-16">
+    <div className=" mt-8 md:mt-16 mulish">
       <div className="bg-neutral opacity-90 text-neutral-content">
         <div className="container mx-auto px-4 md:px-8 md:py-12">
           <div className="footer grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2   lg:grid-cols-4 items-start gap-12 md:gap-20 py-12">
@@ -21,7 +21,7 @@ const Footer = () => {
               <p className="mx-auto md:mx-0">
                 Your Gateway to a World-Class Culinary and Hospitality Education
               </p>
-              <div className="flex gap-3 mx-auto md:justify-start lg:mx-0">
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 mx-auto md:justify-start lg:mx-0">
                 <div className="btn btn-outline shadow-md text-white">
                   <FaFacebook className="text-xl lg:text-2xl" />
                 </div>
@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="space-y-4 px-4 md:px-0 ">
-              <h6 className="footer-title">Contact Info</h6>
+              <h6 className="footer-title  text-2xl cinzel">Contact Info</h6>
               <div className="flex flex-col space-y-3 text-left justify-start">
                 <div className="border border-gray-600 w-40 mb-2 md:mx-0" />
                 <a className="link link-hover flex items-center">
@@ -59,7 +59,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="space-y-4 px-4 md:px-0">
-              <h6 className="footer-title">Help Center</h6>
+              <h6 className="footer-title  text-2xl cinzel">Help Center</h6>
               <div className="flex flex-col space-y-3">
                 <div className="border border-gray-600 w-40 mb-2 md:mx-0" />
                 <a className="link link-hover">Admission</a>
@@ -69,7 +69,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="space-y-4 px-4 md:px-0 ">
-              <h6 className="footer-title">Quick Links</h6>
+              <h6 className="footer-title text-2xl cinzel">Quick Links</h6>
               <div className="flex flex-col space-y-3">
                 <div className="border border-gray-600 w-40 mb-2 md:mx-0" />
                 <a className="link link-hover">Classes</a>
@@ -84,7 +84,7 @@ const Footer = () => {
       <div className="footer footer-center opacity-90 bg-neutral text-neutral-content py-6 mx-auto">
         <p>
           Design by Goinnovior Limited. All rights reserved.
-          <span className="text-blue-800"> 360D Soul Limited</span>
+          <span className="text-blue-800 font-bold"> 360D Soul Limited</span>
         </p>
       </div>
     </div>

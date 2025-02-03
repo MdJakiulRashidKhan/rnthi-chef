@@ -21,17 +21,17 @@ const BlogBanner = () => {
           Excellence
         </h1>
         <div className="flex flex-wrap justify-center gap-4 mt-5 text-orange-500 text-sm sm:text-base">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 mulish">
             <LuUser />
             <p>Md. Tarif Al-Mozahed</p>
           </div>
           <span className="hidden sm:block">|</span>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 mulish">
             <CiClock1 />
             <p>August 2, 2023</p>
           </div>
           <span className="hidden sm:block">|</span>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 mulish">
             <FiMessageCircle />
             <p>No Comment</p>
           </div>

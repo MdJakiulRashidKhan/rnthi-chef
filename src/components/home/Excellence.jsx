@@ -34,7 +34,7 @@ const Excellence = () => {
               </h1>
             </div>
 
-            <p className="text-gray-700 text-base sm:text-lg leading-relaxed px-2">
+            <p className="text-gray-700 text-base sm:text-lg leading-relaxed px-2 mulish">
               Step into our world of culinary artistry through our gallery,
               showcasing vibrant moments of learning, creativity, and passion.
               Experience the journey of our students and faculty in action!

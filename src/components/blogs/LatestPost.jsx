@@ -9,14 +9,14 @@ const LatestPost = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2 p-4">
           <div className="space-y-4 px-4">
-            <h6 className="text-xl text-black">
+            <h6 className="text-xl text-black mulish">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
               ex urna. Morbi vitae ex eget erat condimentum suscipit at nec
               libero. Nam suscipit finibus quam eu vehicula. Proin eget sodales
               lorem.
             </h6>
             <h5 className="text-2xl font-bold">Unleash your inner chef</h5>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mulish">
               Nunc dui libero, laoreet ut enim at, scelerisque placerat nunc.
               Nunc vel libero vehicula, commodo velit id, accumsan orci. Integer
               porta maximus mi eu dignissim. Ut bibendum mauris sit amet metus
@@ -28,7 +28,7 @@ const LatestPost = () => {
               <img className="w-full" src="/images/4567.png" alt="" />
             </div>
             <h5 className="text-2xl font-bold">Master the art of cooking</h5>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mulish">
               Aliquam enim purus, ultrices sit amet lacinia ac, ullamcorper eget
               nunc. Sed mollis elit quis feugiat hendrerit. Quisque eleifend
               metus ac vehicula faucibus. Aliquam sollicitudin semper lacinia.
@@ -38,7 +38,7 @@ const LatestPost = () => {
               Suspendisse lacinia odio vitae efficitur accumsan.
             </p>
             <h5 className="text-2xl font-bold">Mastering knife skills</h5>
-            <p className="text-gray-600">
+            <p className="text-gray-600 mulish">
               Sed nec ipsum rhoncus, venenatis est a, venenatis libero.
               Suspendisse metus metus, pellentesque vitae accumsan nec, pharetra
               in magna. Nullam sed ullamcorper felis. Morbi non purus non purus
@@ -60,7 +60,7 @@ const LatestPost = () => {
                 <div>
                   <h6 className="text-xl text-red-400">Md. Tarif Al-Mozahed</h6>
                   <div>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600 mulish">
                       Suspendisse potenti. Nam sem tortor,
                       <br /> dapibus et hendrerit eu, <br /> ornare vitae arcu.
                       Nunc porta libero.

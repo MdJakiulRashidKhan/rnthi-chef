@@ -23,7 +23,7 @@ const NewsArticle = () => {
         <h2 className="text-4xl sm:text-5xl lg:text-6xl bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent w-full lg:w-8/12 mb-4 lg:mb-0">
           Latest News & <br /> Article
         </h2>
-        <p className="text-sm sm:text-base w-full lg:w-4/12 mt-4 lg:mt-0">
+        <p className="text-sm sm:text-base w-full lg:w-4/12 mt-4 lg:mt-0 mulish">
           In today's fast-paced world, staying informed is key to staying
           competitive. Whether you're in technology, education, or the culinary
           arts, keeping up with the latest news and articles in your field
@@ -46,7 +46,7 @@ const NewsArticle = () => {
             <CiClock1 />
             <p>August 2, 2023</p>
           </div>
-          <p>
+          <p className="mulish">
             {showFullText.article1 ? (
               <>
                 Elevate your cooking skills with our Professional Food &
@@ -93,7 +93,7 @@ const NewsArticle = () => {
             <CiClock1 />
             <p>August 2, 2023</p>
           </div>
-          <p>
+          <p className="mulish">
             {showFullText.article2 ? (
               <>
                 An IELTS certification opens doors to global opportunities. From

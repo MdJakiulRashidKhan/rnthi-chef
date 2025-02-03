@@ -25,7 +25,7 @@ const AboutContent = () => {
         </div>
       </div>
 
-      <p className="text-gray-800 text-center md:text-left px-4 md:px-0">
+      <p className="text-gray-800 text-center md:text-left px-4 md:px-0 mulish">
         RN Tourism and Hospitality Management Institute (RNTHMI) is an approved
         center from the City and Guilds of London Institute, UK, and nationally
         affiliated with BTEB and NSDA of Bangladesh. Located in Aftab Nagar,
@@ -48,7 +48,7 @@ const AboutContent = () => {
           <h4 className="text-3xl bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent">
             Master At Culinary Arts
           </h4>
-          <p className="text-gray-600">
+          <p className="text-gray-600 mulish">
             RN Tourism and Hospitality Management Institute (RNTHMI), approved
             by City and Guilds, UK, and affiliated with BTEB and NSDA, offers
             premier tourism, hospitality, and culinary courses in Dhaka and
@@ -59,7 +59,7 @@ const AboutContent = () => {
               <h4 className="text-3xl bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent">
                 Our Mission
               </h4>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mulish">
                 To inspire and equip individuals with the culinary skills and
                 knowledge to pursue successful careers in the food industry.
               </p>
@@ -68,7 +68,7 @@ const AboutContent = () => {
               <h4 className="text-3xl bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent">
                 Our Vision
               </h4>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mulish">
                 To be the leading culinary academy, recognized for excellence in
                 education, innovation, and producing world-class chefs.
               </p>
@@ -77,7 +77,7 @@ const AboutContent = () => {
               <h4 className="text-3xl bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent">
                 Our Values
               </h4>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mulish">
                 We strive for the highest standards of education and training,
                 providing a rigorous and enriching learning experience.
               </p>

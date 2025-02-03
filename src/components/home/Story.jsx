@@ -3,7 +3,7 @@ import React from "react";
 const Story = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex items-center flex-col md:flex-row mx-auto w-96  gap-10 py-20">
+      <div className="flex items-center flex-col md:flex-row mx-auto w-96  gap-10 pt-36 pb-20 ">
         <div className="w-24 lg:w-40">
           <img className="w-full" src="/images/slogo1.png" alt="" />
         </div>
@@ -24,17 +24,17 @@ const Story = () => {
           </div>
           <div className="">
             <div className="max-w-4xl bg-[#D9C58E] px-20 py-16 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold text-red-900 uppercase border-b pb-2">
+              <h2 className="text-2xl font-bold text-red-900 uppercase border-b pb-2">
                 Our Contact
               </h2>
-              <p className="text-gray-800 mt-4">
+              <p className="text-gray-800 mt-4 mulish">
                 21/A, Road - 2, Block A, Aftab Nagar (Beside East West
                 University), Merul Badda, Dhaka, Bangladesh, 1212
               </p>
-              <p className="text-gray-800 mt-4 font-semibold">
+              <p className="text-gray-800 mt-4 font-semibold mulish">
                 +8801552-478007
               </p>
-              <p className="text-gray-800 mt-1">rnhi.bd@gmail.com</p>
+              <p className="text-gray-800 mt-1 mulish">rnhi.bd@gmail.com</p>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Story = () => {
                   Our Journey
                 </span>
               </h1>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mulish">
                 RN Tourism and Hospitality Management Institute (RNTHMI) is an
                 approved center from the City and Guilds of London Institute,
                 UK, and nationally affiliated with BTEB and NSDA of Bangladesh.

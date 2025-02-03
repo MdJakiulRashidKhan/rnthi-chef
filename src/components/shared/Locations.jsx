@@ -62,13 +62,13 @@ const Locations = () => {
           <div className="bg-orange-100 rounded-lg shadow-lg overflow-hidden relative w-[338px] h-[506px]">
             <div className="py-8 px-10 space-y-3">
               <h2 className="text-2xl font-semibold text-red-700">Dhaka</h2>
-              <small className="text-gray-600 block h-16">
+              <small className="text-gray-600 block h-16 mulish">
                 21/A, Road-2, Block-A, Jahurul Islam City, <br />
                 Rampura Bridge, Dhaka 1212
               </small>
-              <div className="flex justify-between">
-                <p className="text-sm">rnhi.bd@gmail.com</p>
-                <p className="text-sm">+088-015-524880007</p>
+              <div className="flex justify-between mulish">
+                <p className="text-xs">rnthi.bd@gmail.com</p>
+                <p className="text-xs">+088-015-524880007</p>
               </div>
               {/* Map Container */}
               <div className="relative w-full h-48">
@@ -86,7 +86,7 @@ const Locations = () => {
                   className="absolute  bottom-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-red-400 to-red-900 text-white  py-2 rounded-lg shadow-md flex items-center justify-around gap-2 w-48 text-sm"
                 >
                   <div className="flex gap-2">
-                    <IoLocationSharp className="text-amber-500 text-2xl" />{" "}
+                    <IoLocationSharp className="text-amber-500 text-2xl mulish" />{" "}
                     <p> GET THE LOCATION</p>
                   </div>
                 </button>
@@ -107,13 +107,13 @@ const Locations = () => {
               <h2 className="text-2xl font-semibold text-red-700">
                 Chittagong
               </h2>
-              <small className="text-gray-600 block h-16">
+              <small className="text-gray-600 block h-16 mulish">
                 RN Tourism & Hospitality Management Institute <br />
                 South Khulshi, Chittagong, Bangladesh
               </small>
-              <div className="flex justify-between">
-                <p className="text-sm">rnhi.bd@gmail.com</p>
-                <p className="text-sm">+088-015-524880007</p>
+              <div className="flex justify-between mulish">
+                <p className="text-xs">rnthi.bd@gmail.com</p>
+                <p className="text-xs">+088-015-524880007</p>
               </div>
               {/* Map Container */}
               <div className="relative w-full h-48">
@@ -131,7 +131,7 @@ const Locations = () => {
                   className="absolute  bottom-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-red-400 to-red-900 text-white  py-2 rounded-lg shadow-md flex items-center justify-around gap-2 w-48 text-sm"
                 >
                   <div className="flex gap-2">
-                    <IoLocationSharp className="text-amber-500 text-2xl" />{" "}
+                    <IoLocationSharp className="text-amber-500 text-2xl mulish" />{" "}
                     <p> GET THE LOCATION</p>
                   </div>
                 </button>

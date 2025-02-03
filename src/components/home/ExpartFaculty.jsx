@@ -18,7 +18,7 @@ const ExpartFaculty = () => {
               </h1>
             </h1>
           </div>
-          <p className="w-10/12 text-center">
+          <p className="w-10/12 text-center mulish">
             Our expert faculty bring unparalleled knowledge and skills from
             esteemed culinary institutes. They are dedicated to shaping the
             future of aspiring culinary professionals.

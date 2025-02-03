@@ -13,7 +13,7 @@ const Contact = () => {
         <h2 className="text-4xl font-extrabold text-white text-center mb-8 uppercase tracking-wide">
           Get In Touch
         </h2>
-        <div className="lg:grid lg:grid-cols-3 lg:gap-10">
+        <div className="lg:grid lg:grid-cols-3 lg:gap-10 mulish">
           <div className="rounded-lg p-6 shadow-lg lg:col-span-1 text-center flex flex-col items-center space-y-3">
             <h3 className="text-xl font-semibold text-white mb-4">
               Contact Information

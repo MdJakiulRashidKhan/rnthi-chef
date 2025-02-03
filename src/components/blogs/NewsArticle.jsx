@@ -40,11 +40,11 @@ const NewsArticle = () => {
                 <h3 className="bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent text-2xl">
                   Top 5 Benefits of Learning IELTS for Your Career
                 </h3>
-                <div className="flex items-center gap-2 text-orange-400">
+                <div className="flex items-center gap-2 text-orange-400 mulish">
                   <IoMdClock />
                   <p>August 2, 2023</p>
                 </div>
-                <p>
+                <p className='mulish'>
                   An IELTS certification opens doors to global opportunities.
                   From higher education to immigration and....
                   {/* Conditionally render the full text for the specific card */}

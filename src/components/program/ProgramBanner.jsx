@@ -13,15 +13,15 @@ const ProgramSection = ({
   return (
     <div className="container mx-auto my-8 px-4">
       <div className="flex flex-col lg:flex-row items-start border border-orange-500 rounded-lg overflow-hidden">
-        <div className="w-full lg:w-1/2 space-y-8 p-6 text-left">
+        <div className="w-full lg:w-1/2 space-y-8 p-6 text-left ">
           <p className="text-orange-400 text-xl font-semibold">{subtitle}</p>
           <h1 className="text-4xl lg:text-4xl xl:text-6xl bg-gradient-to-r pb-2 from-red-600 to-red-900 bg-clip-text text-transparent font-bold">
             {title}
           </h1>
-          <p className="text-gray-900 text-lg">{description}</p>
+          <p className="text-gray-900 text-lg mulish">{description}</p>
 
           {/* Points arranged in two rows for lg devices */}
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap mulish">
             {points.slice(0, 2).map((point, index) => (
               <div
                 key={index}
@@ -32,7 +32,7 @@ const ProgramSection = ({
               </div>
             ))}
           </div>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap mulish">
             {points.slice(2).map((point, index) => (
               <div
                 key={index}
@@ -151,6 +151,11 @@ const ProgramBanner = () => {
         <h1 className="text-4xl md:text-5xl font-bold text-red-700 mb-6">
           PROFESSIONAL PROGRAMS
         </h1>
+        <p className="mulish text-center w-4/12 mx-auto">
+          Our Basic Course provides essential knowledge and skills for a career
+          in tourism and hospitality management, focusing on foundational
+          concepts and industry practices.
+        </p>
         <div className="flex flex-wrap justify-center gap-4 bg-orange-100 px-4 py-6 rounded-lg max-w-4xl mx-auto shadow-[4px_4px_0px_#FF0000]">
           {Object.keys(sections).map((button) => (
             <button

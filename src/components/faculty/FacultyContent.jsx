@@ -25,7 +25,7 @@ const FacultyContent = () => {
         {FacultyData.map((faculty, index) => (
           <div
             key={index}
-            className={`p-6 py-6 rounded-lg max-w-[591px] h-[1020px] space-y-8 mx-auto ${
+            className={`p-6 py-6 rounded-lg max-w-[591px] h-[1020px] space-y-5 mx-auto ${
               index === 1 || index === 3
                 ? "bg-black text-white shadow-[4px_4px_0px_#FFA500]"
                 : "bg-orange-100 shadow-[4px_4px_0px_#FF0000]"
@@ -47,7 +47,7 @@ const FacultyContent = () => {
             </h1>
             <div className="border-b border-orange-500 w-3/4 mx-auto mb-4" />
             <p
-              className={`mb-4 text-center ${
+              className={`mb-4 text-center mulish ${
                 index === 1 || index === 3
                   ? "text-orange-600"
                   : "text-orange-600"
@@ -56,7 +56,7 @@ const FacultyContent = () => {
               {faculty.position}
             </p>
             <p
-              className={`px-4 sm:px-8 ${
+              className={`px-4 sm:px-8 mulish ${
                 index === 1 || index === 3 ? "text-gray-400" : "text-gray-600"
               }`}
             >

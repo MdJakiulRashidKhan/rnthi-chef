@@ -5,12 +5,12 @@ const KnitPart = () => {
   return (
     <div className="container mx-auto my-20 px-4 lg:px-16">
       <div className="flex flex-col lg:flex-row items-center border border-orange-300 rounded-lg overflow-hidden shadow-lg">
-        <div className="lg:w-1/2 w-full p-6 space-y-5">
+        <div className="lg:w-1/2 w-full p-6 space-y-5 mulish">
           <h6 className="text-gray-800 text-2xl font-semibold">
             Be part of a close-knit community, where everyone speaks your
             language—food.
           </h6>
-          <p className="text-base text-gray-700">
+          <p className="text-base text-gray-700 ">
             At <span className="font-bold text-orange-600">RNTHI</span>, you'll
             find all the ingredients you need to create a college experience
             that's uniquely yours—guided by your passions, your interests, and

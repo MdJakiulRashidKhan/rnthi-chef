@@ -90,7 +90,7 @@ const ProgramCard = () => {
                 {showFullDescription ? card.fullDescription : card.description}
                 <span
                   onClick={toggleDescription}
-                  className="bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent ml-1 cursor-pointer"
+                  className="bg-gradient-to-r from-red-600 to-red-900 bg-clip-text text-transparent ml-1 cursor-pointer mulish"
                 >
                   {showFullDescription ? "Show Less" : "See More"}
                 </span>
@@ -102,7 +102,7 @@ const ProgramCard = () => {
               />
 
               {/* Updated Responsive Details Layout */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-center">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-center mulish">
                 {card.details.slice(0, 2).map((detail, idx) => (
                   <div key={idx} className="flex items-center space-x-2">
                     <span className="inline-block w-4 h-4 rounded-full bg-yellow-400"></span>
@@ -116,7 +116,7 @@ const ProgramCard = () => {
                   </div>
                 ))}
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-center mt-2">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-center mt-2 mulish">
                 {card.details.slice(2, 4).map((detail, idx) => (
                   <div key={idx} className="flex items-center space-x-2">
                     <span className="inline-block w-4 h-4 rounded-full bg-yellow-400"></span>
@@ -134,7 +134,7 @@ const ProgramCard = () => {
                 <div className="flex items-center space-x-2">
                   <span className="inline-block w-4 h-4 rounded-full bg-yellow-400"></span>
                   <p
-                    className={`${
+                    className={` mulish ${
                       card.isDark ? "text-white" : "text-gray-600"
                     }`}
                   >
@@ -165,7 +165,7 @@ const ProgramCard = () => {
                     </h6>
                     <p
                       className={`${
-                        card.isDark ? "text-white" : "text-gray-600"
+                        card.isDark ? "text-white " : "text-gray-600"
                       }`}
                     >
                       {card.mentorRole}

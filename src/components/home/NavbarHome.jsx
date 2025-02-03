@@ -278,7 +278,7 @@ const NavbarHome = () => {
         }`}
       >
         <div className="container mx-auto">
-          <div className="navbar bg-[#F2E498] py-8 px-5">
+          <div className="navbar bg-[#F2E498] py-5 px-5">
             <div className="navbar-start">
               <div className="dropdown">
                 <div
