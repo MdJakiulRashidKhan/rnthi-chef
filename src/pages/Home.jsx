@@ -8,6 +8,7 @@ import Testimonial from "../components/home/Testimonial";
 import Locations from "../components/shared/Locations";
 import ReadyCard from "../components/shared/ReadyCard";
 import ExpartFaculty from "./../components/home/ExpartFaculty";
+import FacultyCar from "./../components/home/FacultyCar";
 import FoodFuture from "./../components/home/FoodFuture";
 import FoodStarts from "./../components/home/FoodStarts";
 import HomeProgramBanner from "./../components/home/HomeProgramBanner";
@@ -22,6 +23,7 @@ const About = () => {
       <FoodFuture />
       <FoodStarts />
       <ExpartFaculty />
+      <FacultyCar />
       <Excellence />
       <Locations />
       <Testimonial />
