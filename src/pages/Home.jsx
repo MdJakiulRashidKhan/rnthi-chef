@@ -13,6 +13,7 @@ import FoodFuture from "./../components/home/FoodFuture";
 import FoodStarts from "./../components/home/FoodStarts";
 import HomeProgramBanner from "./../components/home/HomeProgramBanner";
 import Footer from "./../components/shared/Footer";
+import HomeProgram from "../components/home/HomeProgram";
 
 const About = () => {
   return (
@@ -20,6 +21,7 @@ const About = () => {
       <NavbarHome />
       <Story />
       <HomeProgramBanner />
+      <HomeProgram/>
       <FoodFuture />
       <FoodStarts />
       <ExpartFaculty />
